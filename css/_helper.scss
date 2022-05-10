@@ -1,0 +1,70 @@
+@import "mixins";
+//helper classes
+.flex{
+    display: flex;
+
+    &-jc-sb{
+    justify-content: space-between;
+    }
+    &-jc-c{
+    justify-content: center;
+    }
+    &-ai-c{
+        align-items: center;
+    }
+}
+
+.spacing{
+
+    padding: 2.1875rem;
+    @include breakpoint-up(large) {
+      padding: 100px;
+    }
+
+}
+
+
+// Visibility
+.hide-for-mobile {
+    @include breakpoint-down(medium) {
+      display: none;
+    }
+  }
+  
+  .hide-for-desktop {
+    @include breakpoint-up(large) {
+      display: none;
+    }
+  }
+  .strong--text{
+    font-family: 'Commissioner', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+   
+}
+.small-header{
+  font-size: 16px;
+  font-weight: 700;
+  font-family: 'Commissioner', sans-serif;
+}
+  .paragraph{
+    font-family: 'Commissioner', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    
+}
+.left-right-space{
+  padding:25px;
+  @include breakpoint-up(large) {
+    padding:46px;
+  }
+}
+.space-bt-blocks{
+  margin-top: 20px;
+}
+.pledge{
+  font-family: 'Commissioner', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  color: $Moderate-cyan;
+}
