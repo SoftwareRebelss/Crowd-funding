@@ -8,6 +8,8 @@
  const bookmark_btn = document.querySelector('.bookmark-btn');
  const pledge_update = document.querySelector('#pledges');
  let error_messege = document.querySelector('.error');
+ let alert_bambo = document.querySelector('.alert-bambo');
+ let no_reward_pop_up = document.querySelector('.no-reward');
  
 
 
@@ -44,7 +46,7 @@ console.log('click Humberguer');
 let reward = document.querySelector('.reward-bambo').addEventListener('click' , function(){
     console.log('working');
      Over_lay.classList.add('fade-in');
-     let alert_bambo = document.querySelector('.alert-bambo');
+     
      alert_bambo.classList.remove('remove-this-class');
      
     });
@@ -69,6 +71,13 @@ function Calcpladges(){
     error_messege.innerHTML = "Thank you";
   }
 }
+let completed = document.querySelector('.no-rewards-link').addEventListener('click' ,function(){
+  alert_bambo.classList.add('remove-this-class');
+  no_reward_pop_up.classList.remove('pop-box');
+
+
+     
+});
 
    
 

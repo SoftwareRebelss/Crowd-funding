@@ -124,6 +124,27 @@ a, a:visited, a:hover {
   }
 }
 
+.container .no-reward {
+  background: white;
+  width: 100%;
+  margin: 0 auto;
+  border-radius: 5px;
+  padding: 23px 23px;
+  position: relative;
+  z-index: 1;
+  text-align: center;
+}
+
+.container .no-reward .btn-pledge {
+  border: none;
+  background: #3cb4ac;
+  padding: 15px 23px;
+  border-radius: 100px;
+  font-family: 'Commissioner', sans-serif;
+  color: #F4F4F4;
+  margin-left: 3px;
+}
+
 .container .statics {
   width: 100%;
   background: #FFFFFF;
@@ -134,6 +155,8 @@ a, a:visited, a:hover {
       -ms-flex-align: center;
           align-items: center;
   padding: 25px;
+  padding-top: 0px;
+  margin-top: -210px;
 }
 
 .container .statics .figures {
@@ -412,6 +435,10 @@ a, a:visited, a:hover {
 }
 
 .remove-this-class {
+  visibility: hidden;
+}
+
+.pop-box {
   visibility: hidden;
 }
 
