@@ -129,10 +129,14 @@ a, a:visited, a:hover {
   width: 100%;
   margin: 0 auto;
   border-radius: 5px;
-  padding: 23px 23px;
+  padding: 23px 26px;
   position: relative;
   z-index: 1;
   text-align: center;
+}
+
+.container .no-reward .thanks-para {
+  padding-bottom: 15px;
 }
 
 .container .no-reward .btn-pledge {
@@ -250,6 +254,10 @@ a, a:visited, a:hover {
   border-radius: 1px solid #7a7a7a;
   padding: 25px;
   margin-top: 20px;
+}
+
+.container .projects .bottom-bambo {
+  margin-top: -400px;
 }
 
 .container .projects .bambo {

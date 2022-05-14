@@ -59,11 +59,10 @@ let reward = document.querySelector('.reward-bambo').addEventListener('click' , 
 
 function Calcpladges(){
   let user_input_data = document.querySelector('.user-input-data').value;
-  let maximum_left = 101;
-  let minimum_pledge = 25;
-  let solution = maximum_left - user_input_data;
-  document.querySelector('.numbers').textContent = solution + " left";
-  if (user_input_data < minimum_pledge ){
+  let sol = 101 - user_input_data;
+
+  document.querySelector('.numbers').textContent = sol + " left";
+  if (user_input_data < 25 ){
     error_messege.style.color = "red";
 
   }
@@ -75,7 +74,11 @@ let completed = document.querySelector('.no-rewards-link').addEventListener('cli
   alert_bambo.classList.add('remove-this-class');
   no_reward_pop_up.classList.remove('pop-box');
 
+let btn_no_pledge = document.querySelector('.btn-pledgee').addEventListener('click', function(){
+  no_reward_pop_up.classList.add('pop-box');
+  Over_lay.classList.remove('fade-in');
 
+})
      
 });
 

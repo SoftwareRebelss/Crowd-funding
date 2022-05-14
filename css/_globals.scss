@@ -129,11 +129,13 @@ padding-right: 24px;
     width: 100%;
     margin:0 auto;
     border-radius: 5px;
-    padding: 23px 23px;
+    padding: 23px 26px;
     position: relative;
     z-index: 1;
     text-align: center;
-   
+   .thanks-para{
+       padding-bottom: 15px;
+   }
     
     .btn-pledge{
      border: none;
@@ -229,7 +231,9 @@ padding-right: 24px;
     border-radius: 1px solid $Dark-gray;
     padding: 25px; 
     margin-top: 20px; 
-   
+    .bottom-bambo{
+       margin-top: -400px; 
+    }
    .bambo{
        border-radius:7px;
        border: 1px solid $Dark-gray-2;
