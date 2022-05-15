@@ -231,9 +231,12 @@ padding-right: 24px;
     border-radius: 1px solid $Dark-gray;
     padding: 25px; 
     margin-top: 20px; 
-    .bottom-bambo{
-       margin-top: -400px; 
-    }
+    
+      @include breakpoint-down(small){
+        .bottom-bambo{
+            margin-top: -500px; 
+         }
+        } 
    .bambo{
        border-radius:7px;
        border: 1px solid $Dark-gray-2;

@@ -256,8 +256,10 @@ a, a:visited, a:hover {
   margin-top: 20px;
 }
 
-.container .projects .bottom-bambo {
-  margin-top: -400px;
+@media (max-width: 39.9375em) {
+  .container .projects .bottom-bambo {
+    margin-top: -500px;
+  }
 }
 
 .container .projects .bambo {

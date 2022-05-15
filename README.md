@@ -1,4 +1,4 @@
-# Frontend Mentor - Loopstudios landing page
+# Frontend Mentor - crowd funding
 
 ![Design preview for the crowd funding coding challenge](/images/desktop-preview.jpg)
 
